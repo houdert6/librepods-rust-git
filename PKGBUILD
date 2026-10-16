@@ -1,16 +1,16 @@
-# Maintainer: Mingxun Hua: huamingxun@gmail.com
+# Maintainer: Mingxun Hua: huamingxun@gmail.com (this fork on github is maintained by houdert6@gmail.com)
 pkgname=librepods-rust-git
 pkgver=r526.4a9a2e7
 pkgrel=1
 pkgdesc="Apple exclusive AirPods Pro features for Linux (Rust Rewrite Branch)"
 arch=('x86_64')
-url="https://github.com/kavishdevar/librepods"
+url="https://github.com/houdert6/librepods"
 license=('AGPL-3.0-or-later')
 depends=('bluez' 'libpulse' 'dbus' 'gcc-libs' 'glibc' 'hicolor-icon-theme')
-makedepends=('git' 'rust' 'cargo')
+makedepends=('git' 'cargo')
 provides=('librepods')
 conflicts=('librepods' 'librepods-git')
-source=("git+https://github.com/kavishdevar/librepods.git#branch=linux/rust")
+source=("git+https://github.com/houdert6/librepods.git#branch=linux/rust")
 sha256sums=('SKIP')
 
 pkgver() {
