@@ -7,7 +7,7 @@ arch=('x86_64')
 url="https://github.com/houdert6/librepods"
 license=('AGPL-3.0-or-later')
 depends=('bluez' 'libpulse' 'dbus' 'gcc-libs' 'glibc' 'hicolor-icon-theme')
-makedepends=('git' 'cargo')
+makedepends=('git')
 provides=('librepods')
 conflicts=('librepods' 'librepods-git')
 source=("git+https://github.com/houdert6/librepods.git#branch=linux/rust")
